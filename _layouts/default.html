@@ -23,22 +23,22 @@
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:description" content="{{ page.description }}" />
         <meta name="twitter:title" content="Laravel Best Practices" />
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
+        <link rel="apple-touch-icon" sizes="57x57" href="/laravelbestpractices/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/laravelbestpractices/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/laravelbestpractices/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/laravelbestpractices/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/laravelbestpractices/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/laravelbestpractices/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/laravelbestpractices/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/laravelbestpractices/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/laravelbestpractices/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/laravelbestpractices/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/laravelbestpractices/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/laravelbestpractices/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/laravelbestpractices/favicon-16x16.png">
+        <link rel="manifest" href="/laravelbestpractices/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="/laravelbestpractices/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <script type="application/ld+json">
             {
@@ -83,11 +83,11 @@
         <nav class="site-navigation">
             <div class="build-date">Last Updated: {{ site.time }}</div>
             <ul>
-                <li><a href="/#site-header">Welcome</a>
+                <li><a href="/laravelbestpractices/#site-header">Welcome</a>
                     <ul>
-                        <li><a href="/#translations">Translations</a></li>
-                        <li><a href="/#how-to-contribute">How to Contribute</a></li>
-                        <li><a href="/#spread-the-word">Spread the Word!</a></li>
+                        <li><a href="/laravelbestpractices/#translations">Translations</a></li>
+                        <li><a href="/laravelbestpractices/#how-to-contribute">How to Contribute</a></li>
+                        <li><a href="/laravelbestpractices/#spread-the-word">Spread the Word!</a></li>
                     </ul>
                 </li>
                 {% assign lastIsChild = false %}
@@ -100,7 +100,7 @@
                             {% assign insideSection = false %}
                         {% endif %}
                     {% endif %}
-                    <li><a href="/#{{ post.anchor }}">{{ post.title }}</a>
+                    <li><a href="/laravelbestpractices/#{{ post.anchor }}">{{ post.title }}</a>
                     {% if post.isChild %}
                         </li>
                     {% else %}
@@ -111,7 +111,7 @@
                 {% endfor %}
                     </ul>
                 </li>
-                <li><a href="/#site-footer">Credits</a></li>
+                <li><a href="/laravelbestpractices/#site-footer">Credits</a></li>
             </ul>
         </nav>
         <div class="site-content">
@@ -171,6 +171,6 @@
 
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-        <script src="/scripts/setup.js"></script>
+        <script src="/laravelbestpractices/scripts/setup.js"></script>
     </body>
 </html>
